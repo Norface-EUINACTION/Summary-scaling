@@ -1,0 +1,18 @@
+# @package _global_
+
+# hydra hijacks working directory by changing it to the current log directory,
+work_dir: ${hydra:runtime.cwd}
+# path to folder with data
+data_dir: ${work_dir}/data 
+summaries_dir: ${data_dir}/summaries
+seed: 42
+labels: all
+
+data:
+  labels: ${data_dir}/labels/${labels}.csv
+  summaries: raw
+
+defaults:
+  - model: lr
+  - hparams: lr
+  - experiment: null
