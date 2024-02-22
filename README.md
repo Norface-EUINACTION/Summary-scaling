@@ -5,16 +5,15 @@
     - [x] Pull labels into repo
     - [x] CLI
     - [ ] Documentation: 80% done
-    - [ ] Even more aggressive modularization
+    - [ ] Even more aggressive modularization  <<== EA: What does this mean?????
     - [x] Add preprocessing shell script and raw data
-    - [ ] Verify experiments fully reproducible: old numbers roughly reproducible, though now new, better performing and reproducible numbers 
-    - [ ] Pull in Leiden's analysis code
-    - [ ] Test on Windows
-    - [ ] Snapshot of data (in particular proposals/final acts before and after preprocessing validating our approach)
+    - [ ] Verify experiments fully reproducible: old numbers roughly reproducible, though now new, better performing and reproducible numbers    <<== ea: iS THIS DONE??
+    - [ ] Test on Windows   <<< EA: WHY IS THIS RELEVANT???  u have a note below
+    - [ ] Snapshot of data (in particular proposals/final acts before and after preprocessing validating our approach) 
 
 * Once final acts annotations are available
-    - [ ] Migrate transformers pipeline
-    - [x] Comparatively evaluate generalization of scaling from LP-only to LP+FA
+    - [ ] Migrate transformers pipeline   <<==  EA  WHY  is this here and what does this imply? 
+    - [x] Comparatively evaluate generalization of scaling from LP-only to LP+FA   
 
 # OEIL
 
@@ -22,7 +21,7 @@ This repository implements the scaling algorithms for "PAPER"
  
 **Please note** that this project has only been tested on Linux so far and should run seamlessly on MacOS as well. Windows support remains to be tested.
 
-This work is part of the research collaboration "EU In Action" of [University of Leiden](https://www.universiteitleiden.nl/en), [University of Strathclyde](https://www.strath.ac.uk/), and [University of Mannheim]() funded by [Norface](https://www.norface.net/).
+This work is part of the research collaboration "EUINACTION" of [University of Leiden](https://www.universiteitleiden.nl/en), [University of Strathclyde](https://www.strath.ac.uk/), and [University of Wuerzburg]() funded by [Norface](https://www.norface.net/).
 
 More information can be found on the [project homepage](https://www.euinaction.eu/).
 
