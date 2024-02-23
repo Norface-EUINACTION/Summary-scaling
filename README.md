@@ -1,20 +1,3 @@
-# TODO
-
-* General
-    - [x] Setup up with conda
-    - [x] Pull labels into repo
-    - [x] CLI
-    - [ ] Documentation: 80% done
-    - [ ] Even more aggressive modularization  <<== EA: What does this mean?????
-    - [x] Add preprocessing shell script and raw data
-    - [ ] Verify experiments fully reproducible: old numbers roughly reproducible, though now new, better performing and reproducible numbers    <<== ea: iS THIS DONE??
-    - [ ] Test on Windows   <<< EA: WHY IS THIS RELEVANT???  u have a note below
-    - [ ] Snapshot of data (in particular proposals/final acts before and after preprocessing validating our approach) 
-
-* Once final acts annotations are available
-    - [ ] Migrate transformers pipeline   <<==  EA  WHY  is this here and what does this imply? 
-    - [x] Comparatively evaluate generalization of scaling from LP-only to LP+FA   
-
 # OEIL
 
 This repository implements the scaling algorithms for "PAPER"
