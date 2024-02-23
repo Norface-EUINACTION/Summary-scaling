@@ -2,7 +2,7 @@
 
 This repository implements the scaling algorithms for "PAPER"
  
-**Please note** that this project has only been tested on Linux so far and should run seamlessly on MacOS as well. Windows support remains to be tested.
+**Please note** that this project has only been tested on Linux so far and should run seamlessly on MacOS as well.
 
 This work is part of the research collaboration "EUINACTION" of [University of Leiden](https://www.universiteitleiden.nl/en), [University of Strathclyde](https://www.strath.ac.uk/), and [University of Wuerzburg]() funded by [Norface](https://www.norface.net/).
 
